@@ -1,0 +1,13 @@
+- father build: bundle less tool
+- eslint
+- [x] typescript
+- [x] husky
+- [x] lint-stage
+
+- [x] commit lint
+- [x] npmrc
+- [x] nvmrc
+- jest / swc/jest
+- [x] editorconfig
+- [x] prettier
+- [ ] biome
