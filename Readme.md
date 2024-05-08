@@ -18,6 +18,9 @@ https://github.com/victor-lillo/react-vite-component-template
 - 组件本身不需要 monorepo 化
 - 甚至因为引入了 storybook 组件的文档也不需要monorepo 化
 
+
+
+
 .github
 .husky
 .vscode
@@ -58,3 +61,13 @@ readme.md
 - [?] tsconfig.json
 vite.config.ts
 jest.config.js
+
+
+
+Notice:
+  由于希望快速上手开发，所以在工程脚手架的配置都是随用随改：
+  - prettier
+  - eslint
+  - tsconfig
+  - editorconfig
+  - ...
