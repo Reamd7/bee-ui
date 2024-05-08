@@ -2,27 +2,36 @@ module.exports = {
   printWidth: 80,
   useTabs: false,
   tabWidth: 2,
-  trailingComma: "es5",
-  arrowParens: "avoid",
+  trailingComma: 'none',
+  arrowParens: 'avoid',
+  semi: true,
+  singleQuote: true,
+  jsxSingleQuote: false,
   overrides: [
     {
-      files: "*.json",
+      files: '*.json',
       options: {
-        parser: "json",
-        useTabs: false,
-      },
+        parser: 'json',
+        useTabs: false
+      }
     },
     {
-      files: "*.ts",
+      files: '*.ts',
       options: {
-        parser: "typescript",
-      },
+        parser: 'typescript'
+      }
     },
     {
-      files: "*.tsx",
+      files: '*.tsx',
       options: {
-        parser: "typescript",
-      },
+        parser: 'typescript'
+      }
     },
-  ],
+    {
+      files: '*.md',
+      options: {
+        proseWrap: 'never'
+      }
+    }
+  ]
 };

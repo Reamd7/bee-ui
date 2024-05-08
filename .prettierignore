@@ -1,3 +1,10 @@
 node_modules
 .idea
 *.hbs
+dist
+coverage
+
+**/*.html
+components/index.tsx
+pnpm-lock.yaml
+*.md

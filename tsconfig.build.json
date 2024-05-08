@@ -21,6 +21,6 @@
     "noFallthroughCasesInSwitch": true,
     "importHelpers": false
   },
-  "include": ["src"],
+  "include": ["components"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

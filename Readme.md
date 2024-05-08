@@ -44,19 +44,17 @@ components
 scripts (npm script)
 tests (组件测试用到的公共函数)
 template
-.editorconfig
-.gitignore
-.npmrc
-.nvmrc
-.prettierignore
-.prettierrc.js
-biome.json
-commitlint.config.cjs
+- [?] .editorconfig
+- [x] .gitignore
+- [x] .npmrc
+- [?] .prettierignore
+- [?] .prettierrc.js
+- [?] commitlint.config.cjs
 package.json
 plopfile.json
-pnpm-lock.yaml
+- [x] pnpm-lock.yaml
 readme.md
-tsconfig.node.json (swc)
-tsconfig.json
+- [?] tsconfig.node.json (swc)
+- [?] tsconfig.json
 vite.config.ts
 jest.config.js
